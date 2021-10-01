@@ -37,7 +37,7 @@ c=7;
 a + (b + c) 
 %a *(b*c) = (a*b)*c
 p_asociativa=a+(b+c) 
-p_asociativa=a*(b*) = (a*b)*c
+p_asociativa=a*(b*c) = (a*b)*c
 
 % Propiedad conmutativa 
 p_conmutativa = 'a + b = b + a' 
@@ -47,7 +47,7 @@ b=15;
 a + b = b + a
 %a *b = b*a
 p_conmutativa=a+b
-p_conmutativa=a*b = b * a
+p_conmutativa=a*b = b*a
 
 % Propiedad distributiva
 p_distributiva = 'a (b + c) =a*b + a*c';
