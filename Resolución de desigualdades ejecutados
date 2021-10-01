@@ -1,0 +1,96 @@
+% De secuencia de comandos de octava
+% Título: Clasificación de los números 
+% Descripción: Script para recordar conceptos de números 
+% Autor: Alondra Cayetano Rosendo (alo_t)
+% Fecha: 20210930
+% Versión 1
+% De uso: octava> cd / ruta /
+%: octava> ClasificacionNumeros
+%: Requiere aplicación octave, usar su línea de comandos
+%: https: //octave.readthedocs-io/en/latest/indes.html
+clc
+clear
+c_numeros_Naturales = 'N = {1,2,3, ... n} si n> 0';
+c_numeros_Enteros = 'Z = {-n ..., - 2, -1,0,1,2, .. n}';
+c_numero_Racionales = 'Q = {m / n donde m, n ∈ℝ n ≠ 0}';
+c_numero_Irracionales = 'I = {√n que no puede ser expresado como Q todas las raices que no son exactas}';
+c_numero_Reales = 'ℝ = {I, Q, Z, N}';
+% Propiedades de los números, sean a, b, c, d, e ∈ℝ
+% Propiedades de ∈ (Cerradura)
+p_cerradura = 'a + b ∈ℝ';
+p_cerradura2 = 'a * b ∈ℝ';
+p_cerradura3 = '7 + 9 ∈N';
+p_cerradura4 = '∈ = pertenecia';
+a = 3;
+b = 5;
+a + b
+a * b
+% Propiedad asociativa
+p_asociativa = 'a + * (b + c)';
+p_asociativa2 = 'a * (b * c) = (a * b) c';
+p_asociativa3 = '3 + (8-10) - 10';
+a = 9;
+b = 5;
+c = 7;
+a + (b + c) 
+% a * (b * c) = (a * b) * c
+p_asociativa = a + (b + c) 
+p_asociativa2 = a * (b * c ) 
+
+% Propiedad conmutativa 
+p_conmutativa = 'a + b = b + a' 
+conmutativa=a + b == b + a
+conmutativa= a* b == b * a
+p_conmutativa = a + b
+p_conmutativa = a * b == b * a
+
+
+% Propiedad distributiva
+p_distributiva = 'a (b + c) = a * b + a * c';
+a = 2;
+b = 4;
+c = 6;
+% a * (b + c) = a * b + a * c
+p_distributiva = a * (b + c)
+p_distributiva =( a * b) +(a* c)
+p_distributiva = a * (b + c) ==( a * b) + (a * c)
+% Neutro aditivo
+p_neutroA = 'a + 0 = a';
+p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
+a = 6;
+% a + 0 = a
+p_neutroA = a + 0 == a
+% Neutro multiplicativo
+p_neutroA = 'a + (-1) = a';
+a = 26;
+% a + (-1) = a
+p_neutroA = a + (- 1)
+% Inverso aditivo
+p_inversioA = 'a + -a = 0';
+a = 30;
+% a + -a = 0
+p_inversoA = a + -a 
+% Inverso multiplicativo o reciproco
+p_inversoM = 'a * (1 / a) = 1';
+a = 2;
+% a * (1 / a) = 1
+p_inversoM = a * (1 / a) 
+% Propiedad tránsitivo (1 entonces) 
+p_transitiva = 'si a> byb> c | a> c ';
+p_transitiva2 = 'si a = byb = c | a = c ';
+a = 20;
+b = 21;
+c = 9;
+a> b & b> c | a> c
+a = b & b> c | a> c
+% Tricotomia (raíz del algebra) siempre se pueden comparar
+p_tricotomia = 'a> b';
+p_tricotomia2 = 'a = b';
+p_tricotomia3 = 'a <b';
+a = 9;
+b = 7;
+a> b
+a = b
+a <b 
+% signos de agrupación
+s_agrupacion = '{[()]}';
